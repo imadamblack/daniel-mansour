@@ -23,7 +23,7 @@ export const info = {
     city: "",
     state: "",
   },
-  optInWebhook: '',
+  optInWebhook: 'https://hook.us1.make.com/xgnvq0f34d4m05y12vdy8hejyv3coovk',
   surveyWebhook: '',
   surveyRedirect: '',
   privacyNotice: "/privacy-notice",
