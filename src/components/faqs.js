@@ -33,7 +33,7 @@ export default function Faqs() {
           <div key={`faq-${i}`} className="w-full shadow-sm mb-2">
             <p
               id={i}
-              className="w-full p-4 font-bold bg-white mb-0 cursor-pointer rounded-lg border border-gray-200"
+              className="w-full p-4 font-bold bg-white mb-0 cursor-pointer border border-gray-200"
               onClick={(e) => setFaqOpen(e.target.id)}
             >
               <span className="font-bold mr-4 text-brand-1">›</span>{q.q}

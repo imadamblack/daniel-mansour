@@ -5,17 +5,11 @@ import OptInForm from '../components/form/opt-in-form';
 import { useEffect, useState } from 'react';
 import scrollDepth from '../utils/scrollDepth';
 import i00 from '../../public/landing/00.png';
-import i01 from '../../public/landing/01.png';
-import i02 from '../../public/landing/02.png';
-import i03 from '../../public/landing/03.png';
-import i04 from '../../public/landing/04.png';
-import i05 from '../../public/landing/10.png';
-import i06 from '../../public/landing/06.png';
-import i07 from '../../public/landing/07.png';
-import i08 from '../../public/landing/08.png';
-import i09 from '../../public/landing/09.png';
-import i10 from '../../public/landing/10.png';
-import i11 from '../../public/landing/11.png';
+import ibenefits from '../../public/landing/benefits.png';
+import istepByStep from '../../public/landing/step-by-step.png';
+import iguarantees from '../../public/landing/guarantees.png';
+import ifaqs from '../../public/landing/faqs.png';
+import itestimonials from '../../public/landing/testimonials.png';
 import clientes1 from '../../public/landing/logos/clients-01.png';
 import clientes2 from '../../public/landing/logos/clients-02.png';
 import clientes3 from '../../public/landing/logos/clients-03.png';
@@ -40,10 +34,6 @@ import clientes21 from '../../public/landing/logos/clients-021.png';
 import clientes22 from '../../public/landing/logos/clients-022.png';
 import clientes23 from '../../public/landing/logos/clients-023.png';
 import clientes24 from '../../public/landing/logos/clients-024.png';
-import ico01 from '../../public/landing/ico01.png';
-import ico02 from '../../public/landing/ico02.png';
-import ico03 from '../../public/landing/ico03.png';
-import ico04 from '../../public/landing/ico04.png';
 import Faqs from '../components/faqs';
 
 export default function Home() {
@@ -96,7 +86,9 @@ export default function Home() {
             If you’re investing in marketing but not seeing the results you expected — or if you’re relying too much on
             agencies without real control — it’s time to change your approach.
             <br/><br/>
-            The key isn’t spending more, it’s making smarter, data-driven decisions. I’ll help you cut the guesswork,
+            The key isn’t spending more, it’s making smarter, data-driven decisions.
+            <br/><br/>
+            I'm Daniel Mansour, CEO of MANVEN, and I’ll help you cut the guesswork,
             optimize your strategy, and ensure every dollar actually moves the needle.
             <br/><br/>
             No fluff, no wasted effort — just real insights that help you take control and get measurable results.
@@ -107,7 +99,7 @@ export default function Home() {
       <Blockbuster
         overhead="Benefits"
         title="What you’ll gain from this consultation"
-        image={i03}
+        image={ibenefits}
       />
       <section className="my-16">
         <div className="reading-container">
@@ -138,31 +130,32 @@ export default function Home() {
       </section>
 
       <Blockbuster
-        overhead="Attributes"
+        overhead="Step-by-step"
         title="A Clear Plan to Improve Your Marketing"
-        image={i06}
+        image={istepByStep}
       />
       <section className="my-16">
-        <p className="reading-container">This isn’t about generic advice—it’s about real, actionable changes that will
+        <p className="reading-container">This isn’t about generic advice — it’s about real, actionable changes that will
           transform your marketing.</p>
+        <p className="reading-container">You’ll have me by your side in marketing meetings and will provide insights or even new strategies to push you in the right track.</p>
         <div className="px-8 grid grid-cols-1 md:grid-cols-5 gap-8 my-16">
-          <div className="p-8 border border-brand-1 rounded-2xl">
-            <h3>Marketing Audit</h3>
+          <div className="p-8 border bg-brand-1/10">
+            <h3 className="mb-6">Marketing Audit</h3>
             <p>We’ll analyze your campaigns, where your money is going, and what’s actually driving results. No fluff,
               just facts.</p></div>
-          <div className="p-8 border border-brand-1 rounded-2xl">
-            <h3>Strategy Optimization</h3>
+          <div className="p-8 border bg-brand-1/10">
+            <h3 className="mb-6">Strategy Optimization</h3>
             <p>We’ll refine your marketing plan so it’s efficient, targeted, and built for growth.</p></div>
-          <div className="p-8 border border-brand-1 rounded-2xl">
-            <h3>Agency & Vendor Oversight</h3>
-            <p>Working with agencies? We’ll make sure they’re delivering real value—not just reports that look good but
+          <div className="p-8 border bg-brand-1/10">
+            <h3 className="mb-6">Agency & Vendor Oversight</h3>
+            <p>Working with agencies? We’ll make sure they’re delivering real value — not just reports that look good but
               don’t mean anything.</p></div>
-          <div className="p-8 border border-brand-1 rounded-2xl">
-            <h3>Budget Optimization</h3>
+          <div className="p-8 border bg-brand-1/10">
+            <h3 className="mb-6">Budget Optimization</h3>
             <p>We’ll restructure your marketing spend so you get the best possible return. No more wasted dollars.</p>
           </div>
-          <div className="p-8 border border-brand-1 rounded-2xl">
-            <h3>Support for Key Decisions</h3>
+          <div className="p-8 border bg-brand-1/10">
+            <h3 className="mb-6">Support for Key Decisions</h3>
             <p>From hiring the right talent to evaluating new opportunities, I’ll help you make the smart moves that
               grow your business.</p>
           </div>
@@ -179,14 +172,14 @@ export default function Home() {
       <Blockbuster
         overhead="Testimonials"
         title="Proven Results from Businesses Like Yours"
-        image={i09}
+        image={itestimonials}
       />
       <section className="my-16">
         <div className="flex flex-col items-center justify-center md:mx-52 mx-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mx-auto">
-            <div className="w-full flex flex-col bg-gray-800 rounded-2xl overflow-hidden">
+            <div className="w-full flex flex-col bg-brand-1 overflow-hidden">
               <div className="flex flex-col gap-10 px-20 py-16 flex-grow">
-                <div className="relative w-full flex justify-start text-brand-4">
+                <div className="relative w-full flex justify-start text-brand-3">
                   <div className="material-icons ft-11">format_quote</div>
                 </div>
                 <p className="ft-2 text-white">
@@ -198,9 +191,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="w-full flex flex-col bg-gray-800 rounded-2xl overflow-hidden">
+            <div className="w-full flex flex-col bg-brand-1 overflow-hidden">
               <div className="flex flex-col gap-10 px-20 py-16 flex-grow">
-                <div className="relative w-full flex justify-start text-brand-4">
+                <div className="relative w-full flex justify-start text-brand-3">
                   <div className="material-icons ft-11">format_quote</div>
                 </div>
                 <p className="ft-2 text-white">
@@ -212,9 +205,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="w-full flex flex-col bg-gray-800 rounded-2xl overflow-hidden">
+            <div className="w-full flex flex-col bg-brand-1 overflow-hidden">
               <div className="flex flex-col gap-10 px-20 py-16 flex-grow">
-                <div className="relative w-full flex justify-start text-brand-4">
+                <div className="relative w-full flex justify-start text-brand-3">
                   <div className="material-icons ft-11">format_quote</div>
                 </div>
                 <p className="ft-2 text-white">
@@ -314,25 +307,23 @@ export default function Home() {
       <Blockbuster
         overhead="Guarantees"
         title="My commitment to your results"
-        image={i10}
+        image={iguarantees}
       />
       <section className="py-16">
         <div className="container grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="p-12 bg-brand-1 flex items-center rounded-2xl">
+          <div className="p-12 bg-brand-1 flex items-center">
             <p className="ft-2 text-white">100+ businesses have optimized their marketing with this consultation.</p>
           </div>
-          <div className="p-12 bg-brand-1 flex items-center rounded-2xl">
-            <p className="ft-2 text-white">No long-term contracts—if you don’t see the value, you can cancel anytime.</p>
+          <div className="p-12 bg-brand-1 flex items-center">
+            <p className="ft-2 text-white">No long-term contracts — if you don’t see the value, you can cancel anytime.</p>
           </div>
-          <div className="p-12 bg-brand-1 flex items-center rounded-2xl">
+          <div className="p-12 bg-brand-1 flex items-center">
             <p className="ft-2 text-white">Data-driven strategies, no guesswork.</p>
           </div>
         </div>
 
-        <div className="reading-container flex flex-col justify-center items-center mt-16">
-          <Link href="#contact">
-            <a onClick={() => setLastClick('guarantees')} className="button">{cta.main}</a>
-          </Link>
+        <div className="flex flex-col justify-center items-center mt-16">
+          <Link href="#contact"><a className="button mb-4">{cta.main}</a></Link>
           <p className="-ft-2 text-center">{cta.description}</p>
         </div>
 
@@ -341,7 +332,7 @@ export default function Home() {
       <Blockbuster
         overhead="FAQs"
         title="Everything You Need to Know Before Getting Started"
-        image={i11}
+        image={ifaqs}
       />
       <section className="container py-8">
         <Faqs/>
@@ -352,12 +343,12 @@ export default function Home() {
         <div className="container">
           <div className="w-full md:w-1/2 mx-auto">
             <h2 className="text-brand-1">
-              You've scrolled all the way. <br/>Request a free consultation.
+              You've scrolled all the way. <br/>Request a discovery session for free.
             </h2>
             <p className="ft-1 my-8">
               Share your contact details and schedule a call with me.<br/><br/>
               Our consultations start at $350 / month. <br/>
-              First one is on me.
+              First week is on me.
             </p>
 
             <OptInForm

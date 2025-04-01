@@ -27,7 +27,7 @@ export default function ThankYou() {
             href={`tel:${info.whatsapp.value}`}
           >
             <p className="text-white">
-              O give me a <span className="font-semibold">call</span>
+              Or give me a <span className="font-semibold">call</span>
             </p>
           </a>
         </div>

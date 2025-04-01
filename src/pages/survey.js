@@ -42,9 +42,12 @@ const formSteps = [
     title: `What's your position?`,
     type: 'radio',
     options: [
+      {value: 'owner', label: 'Business Owner'},
+      {value: 'company-director', label: 'Company Director'},
       {value: 'marketing', label: 'Marketing Chief'},
+      {value: 'sales-manager', label: 'Sales Manager'},
       {value: 'agency', label: 'External Agency'},
-      {value: 'owner', label: 'Owner'},
+      {value: 'human-resources', label: 'Human Resources'},
     ],
     cols: 1,
     inputOptions: {required: true}
