@@ -1,6 +1,6 @@
 export const info = {
-  legalName: "Daniel Mansour",
-  companyName: "MANVEN LLC",
+  legalName: "MANVEN LLC",
+  companyName: "Daniel Mansour",
   description: "The Marketing Missing Piece",
   email: {
     sender: "",
