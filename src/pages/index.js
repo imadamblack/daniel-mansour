@@ -47,8 +47,8 @@ export default function Home() {
   });
 
   const cta = {
-    main: 'No more excuses, click',
-    description: 'Request a free consultation, take control of your marketing.',
+    main: 'Just click the button',
+    description: 'Request a free consultation, take control of your business\' future.',
   };
 
   return (
@@ -137,7 +137,8 @@ export default function Home() {
       <section className="my-16">
         <p className="reading-container">This isn’t about generic advice — it’s about real, actionable changes that will
           transform your marketing.</p>
-        <p className="reading-container">You’ll have me by your side in marketing meetings and will provide insights or even new strategies to push you in the right track.</p>
+        <p className="reading-container">You’ll have me by your side in marketing meetings and will provide insights or
+          even new strategies to push you in the right track.</p>
         <div className="px-8 grid grid-cols-1 md:grid-cols-5 gap-8 my-16">
           <div className="p-8 border bg-brand-1/10">
             <h3 className="mb-6">Marketing Audit</h3>
@@ -148,7 +149,8 @@ export default function Home() {
             <p>We’ll refine your marketing plan so it’s efficient, targeted, and built for growth.</p></div>
           <div className="p-8 border bg-brand-1/10">
             <h3 className="mb-6">Agency & Vendor Oversight</h3>
-            <p>Working with agencies? We’ll make sure they’re delivering real value — not just reports that look good but
+            <p>Working with agencies? We’ll make sure they’re delivering real value — not just reports that look good
+              but
               don’t mean anything.</p></div>
           <div className="p-8 border bg-brand-1/10">
             <h3 className="mb-6">Budget Optimization</h3>
@@ -170,7 +172,7 @@ export default function Home() {
       </section>
 
       <Blockbuster
-        overhead="Testimonials"
+        overhead="Background"
         title="Proven Results from Businesses Like Yours"
         image={itestimonials}
       />
@@ -183,7 +185,10 @@ export default function Home() {
                   <div className="material-icons ft-11">format_quote</div>
                 </div>
                 <p className="ft-2 text-white">
-                  Working with Daniel was positive and educational. His marketing skills enhanced our brand and broadened our customer base effectively. With his innovative approach to budgeting and detailed strategies, our marketing needs were expertly handled. Highly recommend for all branding and marketing projects.
+                  Working with Daniel was positive and educational. His marketing skills enhanced our brand and
+                  broadened our customer base effectively. With his innovative approach to budgeting and detailed
+                  strategies, our marketing needs were expertly handled. Highly recommend for all branding and marketing
+                  projects.
                 </p>
                 <div className="mt-auto">
                   <p className="ft-4 serif font-semibold text-white">Christine Cliver</p>
@@ -197,7 +202,9 @@ export default function Home() {
                   <div className="material-icons ft-11">format_quote</div>
                 </div>
                 <p className="ft-2 text-white">
-                  As General Manager of Urban Colony Furniture, I worked closely with Daniel Mansour for 3 years. His expertise significantly energized our brand, increasing sales and enhancing recognition. Extremely pleased with the results and our business relationship, I highly recommend his service.
+                  As General Manager of Urban Colony Furniture, I worked closely with Daniel Mansour for 3 years. His
+                  expertise significantly energized our brand, increasing sales and enhancing recognition. Extremely
+                  pleased with the results and our business relationship, I highly recommend his service.
                 </p>
                 <div className="mt-auto">
                   <p className="ft-4 serif font-semibold text-white">Terry Hancock</p>
@@ -211,7 +218,9 @@ export default function Home() {
                   <div className="material-icons ft-11">format_quote</div>
                 </div>
                 <p className="ft-2 text-white">
-                  Working with Daniel was delightful and stress-free. They exceeded our expectations with our website, were communicative, and streamlined the process. Exceptional service and amiable team. Highly recommend for website and marketing needs!
+                  Working with Daniel was delightful and stress-free. They exceeded our expectations with our website,
+                  were communicative, and streamlined the process. Exceptional service and amiable team. Highly
+                  recommend for website and marketing needs!
                 </p>
                 <div className="mt-auto">
                   <p className="ft-4 serif font-semibold text-white">Bryan Hemphill</p>
@@ -220,6 +229,10 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="container my-20 pt-20 border-t border-brand-1">
+          <h3 className="ft-6 text-center">Companies I have worked with</h3>
         </div>
 
         <div className="px-8 grid grid-cols-3 md:grid-cols-8 gap-8">
@@ -315,7 +328,8 @@ export default function Home() {
             <p className="ft-2 text-white">100+ businesses have optimized their marketing with this consultation.</p>
           </div>
           <div className="p-12 bg-brand-1 flex items-center">
-            <p className="ft-2 text-white">No long-term contracts — if you don’t see the value, you can cancel anytime.</p>
+            <p className="ft-2 text-white">No long-term contracts — if you don’t see the value, you can cancel
+              anytime.</p>
           </div>
           <div className="p-12 bg-brand-1 flex items-center">
             <p className="ft-2 text-white">Data-driven strategies, no guesswork.</p>
