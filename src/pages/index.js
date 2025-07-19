@@ -47,7 +47,7 @@ export default function Home() {
   });
 
   const cta = {
-    main: 'Just click the button',
+    main: 'Schedule your first free consultation',
     description: 'Request a free consultation, take control of your business\' future.',
   };
 
@@ -83,8 +83,7 @@ export default function Home() {
       <section className="container my-16">
         <div className="reading-container">
           <p className="ft-2">
-            If you’re investing in marketing but not seeing the results you expected — or if you’re relying too much on
-            agencies without real control — it’s time to change your approach.
+            If you’re investing in marketing without control over your budget or results — it’s time to take charge with a smarter approach.
             <br/><br/>
             The key isn’t spending more, it’s making smarter, data-driven decisions.
             <br/><br/>
@@ -108,21 +107,20 @@ export default function Home() {
             start using real data to figure out what’s actually working.</p>
           <h3>Optimize your budget and maximize ROI</h3>
           <p>Here’s the thing — your budget isn’t unlimited. Every dollar needs to count. And if you’re not tracking
-            your ROI, you might as well be setting money on fire.</p>
+            your ROI, you’re likely wasting valuable resources.</p>
           <h3>Manage agencies and internal teams more effectively</h3>
-          <p>And let’s talk about your team, you need to know exactly what to ask for, how to hold them accountable, and
+          <p>And let’s talk about your team. You need to know exactly what to ask for, how to hold them accountable, and
             what results to expect. No more vague reports or fancy presentations that don’t actually mean anything.</p>
           <h3>Scale your business without losing control</h3>
           <p>Scaling a business is already tough. The last thing you need is a marketing strategy that feels like a
             runaway train. Keep it aligned with your goals, so growth doesn’t turn into chaos.</p>
           <h3>Save time and focus on what really matters</h3>
-          <p>Oh, and let’s cut the time-wasting. Less back-and-forth, fewer pointless meetings — more execution, better
-            results. That’s the game.</p>
+          <p>Oh, and let’s cut the time-wasting. Streamline your process to save hours on meetings and focus on execution. That’s how you win.</p>
         </div>
         <div className="reading-container">
           <div className="flex flex-col justify-center items-center">
             <Link href="#contact">
-              <a onClick={() => setLastClick('benefits')} className="button mb-4">Start optimizing your business</a>
+              <a onClick={() => setLastClick('benefits')} className="button mb-4">{cta.main}</a>
             </Link>
             <p className="-ft-2 text-center">{cta.description}</p>
           </div>
@@ -136,9 +134,8 @@ export default function Home() {
       />
       <section className="my-16">
         <p className="reading-container">This isn’t about generic advice — it’s about real, actionable changes that will
-          transform your marketing.</p>
-        <p className="reading-container">You’ll have me by your side in marketing meetings and will provide insights or
-          even new strategies to push you in the right track.</p>
+          transform your business strategy.</p>
+        <p className="reading-container">I’ll join your marketing meetings to deliver insights and strategies.</p>
         <div className="px-8 grid grid-cols-1 md:grid-cols-5 gap-8 my-16">
           <div className="p-8 border bg-brand-1/10">
             <h3 className="mb-6">Marketing Audit</h3>
@@ -165,7 +162,7 @@ export default function Home() {
 
         <div className="flex flex-col justify-center mt-16 items-center">
           <Link href="#contact">
-            <a onClick={() => setLastClick('specs')} className="button mb-4">Take the first step to optimizing your business</a>
+            <a onClick={() => setLastClick('specs')} className="button mb-4">{cta.main}</a>
           </Link>
           <p className="-ft-2 text-center">{cta.description}</p>
         </div>
@@ -218,7 +215,7 @@ export default function Home() {
                   <div className="material-icons ft-11">format_quote</div>
                 </div>
                 <p className="ft-2 text-white">
-                  Working with Daniel was delightful and stress-free. They exceeded our expectations with our website,
+                  Working with Daniel was delightful and stress-free. Manven exceeded our expectations with our website,
                   were communicative, and streamlined the process. Exceptional service and amiable team. Highly
                   recommend for website and marketing needs!
                 </p>
@@ -311,7 +308,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col justify-center items-center mt-16">
-          <Link href="#contact"><a className="button mb-4">Let me be part of your business growth</a></Link>
+          <Link href="#contact"><a className="button mb-4">{cta.main}</a></Link>
           <p className="-ft-2 text-center">{cta.description}</p>
         </div>
       </section>
@@ -325,7 +322,7 @@ export default function Home() {
       <section className="py-16">
         <div className="container grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="p-12 bg-brand-1 flex items-center">
-            <p className="ft-2 text-white">100+ businesses have optimized their marketing with this consultation.</p>
+            <p className="ft-2 text-white">100+ businesses have grown with this consulting approach.</p>
           </div>
           <div className="p-12 bg-brand-1 flex items-center">
             <p className="ft-2 text-white">No long-term contracts — if you don’t see the value, you can cancel
@@ -337,7 +334,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col justify-center items-center mt-16">
-          <Link href="#contact"><a className="button mb-4">Let me help you grow your business</a></Link>
+          <Link href="#contact"><a className="button mb-4">{cta.main}</a></Link>
           <p className="-ft-2 text-center">{cta.description}</p>
         </div>
 
@@ -357,12 +354,12 @@ export default function Home() {
         <div className="container">
           <div className="w-full md:w-1/2 mx-auto">
             <h2 className="text-brand-1">
-              You've scrolled all the way. <br/>Request a discovery session for free.
+              You've scrolled all the way. <br/>Request a free discovery session.
             </h2>
             <p className="ft-1 my-8">
               Share your contact details and schedule a call with me.<br/><br/>
               Our consultations start at $350 / month. <br/>
-              First week is on me.
+              Your first week's consultation is free.
             </p>
 
             <OptInForm
