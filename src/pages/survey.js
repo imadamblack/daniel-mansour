@@ -26,7 +26,7 @@ const formSteps = [
   {
     name: 'companySize',
     title: 'How many collaborators you have?',
-    description: 'Selecciona una opción por favor',
+    description: 'Please select one option',
     type: 'radio',
     options: [
       {value: '<10', label: 'Less than 10'},

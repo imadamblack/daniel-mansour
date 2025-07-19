@@ -122,7 +122,7 @@ export default function Home() {
         <div className="reading-container">
           <div className="flex flex-col justify-center items-center">
             <Link href="#contact">
-              <a onClick={() => setLastClick('benefits')} className="button mb-4">{cta.main}</a>
+              <a onClick={() => setLastClick('benefits')} className="button mb-4">Start optimizing your business</a>
             </Link>
             <p className="-ft-2 text-center">{cta.description}</p>
           </div>
@@ -165,7 +165,7 @@ export default function Home() {
 
         <div className="flex flex-col justify-center mt-16 items-center">
           <Link href="#contact">
-            <a onClick={() => setLastClick('specs')} className="button mb-4">{cta.main}</a>
+            <a onClick={() => setLastClick('specs')} className="button mb-4">Take the first step to optimizing your business</a>
           </Link>
           <p className="-ft-2 text-center">{cta.description}</p>
         </div>
@@ -311,7 +311,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col justify-center items-center mt-16">
-          <Link href="#contact"><a className="button mb-4">{cta.main}</a></Link>
+          <Link href="#contact"><a className="button mb-4">Let me be part of your business growth</a></Link>
           <p className="-ft-2 text-center">{cta.description}</p>
         </div>
       </section>
@@ -337,7 +337,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col justify-center items-center mt-16">
-          <Link href="#contact"><a className="button mb-4">{cta.main}</a></Link>
+          <Link href="#contact"><a className="button mb-4">Let me help you grow your business</a></Link>
           <p className="-ft-2 text-center">{cta.description}</p>
         </div>
 
