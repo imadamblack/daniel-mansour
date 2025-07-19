@@ -48,7 +48,7 @@ export default function Home() {
 
   const cta = {
     main: 'Schedule your first free consultation',
-    description: 'Request a free consultation, take control of your business\' future.',
+    description: `Your first week's consultation is free. <br/>Take control of your business' future.`,
   };
 
   return (
@@ -119,10 +119,11 @@ export default function Home() {
         </div>
         <div className="reading-container">
           <div className="flex flex-col justify-center items-center">
+            <p className='ft-2 font-bold text-brand-1 text-center py-12 border-t'>You're one click away from optimizing your business</p>
             <Link href="#contact">
               <a onClick={() => setLastClick('benefits')} className="button mb-4">{cta.main}</a>
             </Link>
-            <p className="-ft-2 text-center">{cta.description}</p>
+            <p className="-ft-2 text-center" dangerouslySetInnerHTML={{__html: cta.description}}/>
           </div>
         </div>
       </section>
@@ -160,11 +161,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center mt-16 items-center">
-          <Link href="#contact">
-            <a onClick={() => setLastClick('specs')} className="button mb-4">{cta.main}</a>
-          </Link>
-          <p className="-ft-2 text-center">{cta.description}</p>
+        <div className="reading-container">
+          <div className="flex flex-col justify-center items-center">
+            <p className="ft-2 font-bold text-brand-1 text-center py-12 border-t">Take the first step to optimizing your business</p>
+            <Link href="#contact">
+              <a onClick={() => setLastClick('benefits')} className="button mb-4">{cta.main}</a>
+            </Link>
+            <p className="-ft-2 text-center" dangerouslySetInnerHTML={{__html: cta.description}}/>
+          </div>
         </div>
       </section>
 
@@ -307,9 +311,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center mt-16">
-          <Link href="#contact"><a className="button mb-4">{cta.main}</a></Link>
-          <p className="-ft-2 text-center">{cta.description}</p>
+        <div className="reading-container">
+          <div className="flex flex-col justify-center items-center">
+            <p className="ft-2 font-bold text-brand-1 text-center py-12 border-t">Let me be part of your business growth</p>
+            <Link href="#contact">
+              <a onClick={() => setLastClick('benefits')} className="button mb-4">{cta.main}</a>
+            </Link>
+            <p className="-ft-2 text-center" dangerouslySetInnerHTML={{__html: cta.description}}/>
+          </div>
         </div>
       </section>
 
@@ -333,9 +342,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center mt-16">
-          <Link href="#contact"><a className="button mb-4">{cta.main}</a></Link>
-          <p className="-ft-2 text-center">{cta.description}</p>
+        <div className="reading-container">
+          <div className="flex flex-col justify-center items-center">
+            <p className="ft-2 font-bold text-brand-1 text-center py-12 border-t">I'm here to help you take your business to the next level</p>
+            <Link href="#contact">
+              <a onClick={() => setLastClick('benefits')} className="button mb-4">{cta.main}</a>
+            </Link>
+            <p className="-ft-2 text-center" dangerouslySetInnerHTML={{__html: cta.description}}/>
+          </div>
         </div>
 
       </section>
