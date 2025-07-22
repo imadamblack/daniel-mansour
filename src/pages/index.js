@@ -73,7 +73,7 @@ export default function Home() {
             {/*<Link href="#contact">*/}
             {/*  <a onClick={() => setLastClick('hero')} className="button mb-4">{cta.main}</a>*/}
             {/*</Link>*/}
-            <p className="-ft-2 md:text-left text-white">{cta.description}</p>
+            <p className="-ft-2 md:text-left text-white" dangerouslySetInnerHTML={{__html: cta.description}}/>
             <p className="material-icons animate-bounce text-white"><span className="ft-9">expand_more</span></p>
           </div>
 
